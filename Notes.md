@@ -71,3 +71,12 @@ The task is proving that we know a secret number without revealing the secret nu
 
 A bunch of equation that I sort of followed that I can summarize as, "you take a public key and the hash of whatever data was signed along with the signature, and from that and the definition of the signature, you can determine whether the signer signed with the right private key or not.  
 
+# Chapter 4 - Serialization
+There's a mix of big and little endian-ness in Bitcoin, so this should be fun.  
+
+Hex = 4 bits per character
+Base64 = 6 bits per character => 44 characters for compressed SEC format for the public key
+Base58 is Base64 with easily mistaken characters removed => 5.86 bits per character
+    - Base58 is on the way out in favor of Bech32, currently only used in Segwit
+
+WIF (Wallet Import Format) - used to transfer the private key (not typically broadcast of course, but used to transfer the secret from one wallet to another.  )
