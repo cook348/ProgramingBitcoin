@@ -80,3 +80,6 @@ Base58 is Base64 with easily mistaken characters removed => 5.86 bits per charac
     - Base58 is on the way out in favor of Bech32, currently only used in Segwit
 
 WIF (Wallet Import Format) - used to transfer the private key (not typically broadcast of course, but used to transfer the secret from one wallet to another.  )
+
+# End of Day 1 Reflections
+I feel like I got through a lot today.  I'm sure having read this far in the book already even if I didn't do the exercises helped prevent me from getting too bogged down in the math.  The really understand the new concepts (which I feel I do well enough to get by, but not to teach it) one could expect to get through the first two chapters in a day.  Though honestly, I'm not sure how critical they are depending on what you want to do with what you have learned.  
